@@ -1,0 +1,89 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    padding-top: 20px;
+}
+
+header .top-two-rows {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100%;
+}
+
+header .top-two-rows .top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .top-two-rows .top-row .google-logo-wrapper {
+    width: 100px;
+}
+
+
+header .top-two-rows .top-row .return {
+    padding-right: 10px;
+}
+
+header .top-two-rows .top-row .return a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+    background: rgb(204, 203, 203);
+    border: 2px solid silver;
+}
+
+header .top-two-rows .top-row .return a:hover {
+    background: rgb(173, 171, 171);
+}
+
+header .top-two-rows .advanced-search-text {
+    text-align: left;
+    margin-top:40px;
+    padding-left: 40px;
+}
+
+.content {
+    padding-top:30px;
+}
+
+table {
+    width:100%;
+    td {
+    padding: 10px;
+
+}
+font-size: 1.2em;
+}
+
+.content .inputfield {
+    height: 30px;
+}
+
+
+.submit-button {
+    display: flex;
+    padding-top: 40px;
+    justify-content: flex-end;
+    padding-right: 500px;
+}
+
+.submit-button .submitt {
+    color: white;
+    padding: 5px 10px;
+    background: #4285F4;
+    border: 1px solid #4285F4;
+    border-radius: 2px;
+}
+

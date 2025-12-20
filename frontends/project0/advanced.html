@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advanced Google Search</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style-for-advanced.css">
+    </head>
+    <body>
+        <header>
+            <div class="top-two-rows">
+                <div class="top-row">
+                    <div class="google-logo-wrapper">
+                            <img src="images/google-logo.png" alt="Google's Logo" class="google-logo">
+                    </div>
+                    <div  class="return"><a href="index.html">Google Search</a></div>
+                </div>
+                <div class="advanced-search-text">
+                    <h2>Advanced Search</h2>
+                </div>
+            </div>
+        </header>
+        <hr style=" margin-top: 20px;">
+        <form action="https:google.com/search">
+            <div class="content">
+                <table>
+                    <tr>
+                        <td class="label-header" colspan="3">Find pages with...</td>
+                    </tr>
+                    <tr>
+                        <td class="label">all these words: </td>
+                        <td><input type="text" size="80" class="inputfield" name="as_q"></td>
+                        <td class="explanation">Type the important words: tri-colour rat terrier</td>
+                    </tr>
+                    <tr>
+                        <td class="label">this exact word or phrase: </td>
+                        <td><input type="text" size="80" class="inputfield" name="as_epq"></td>
+                        <td class="explanation">Put exact words in quotes: "rat terrier"</td>
+                    </tr>
+                    <tr>
+                        <td class="label">any of these words: </td>
+                        <td><input type="text" size="80" class="inputfield" name="as_oq"></td>
+                        <td class="explanation">Type OR between all the words you want: miniature OR standard</td>
+                    </tr>
+                    <tr>
+                        <td class="label">none of these words: </td>
+                        <td><input type="text" size="80" class="inputfield" name="as_eq"></td>
+                        <td class="explanation">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                    </tr>
+            </table>
+            </div>
+            <div class="submit-button">
+                <input type="submit" value="Google Advanced Search" class="submitt">
+            </div>
+        </form>
+    </body>
+</html>

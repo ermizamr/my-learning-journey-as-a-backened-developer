@@ -1,0 +1,141 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+header {
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+header .navbar .nav-links {
+    display:flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+header .navbar .nav-links a {
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+    background: rgb(204, 203, 203);
+    border: 2px solid silver;
+}
+
+header .navbar .nav-links a:hover {
+    background: rgb(173, 171, 171);
+}
+
+.central-element {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 20px;
+    min-height: 50vh;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+}
+
+.central-element .google-logo-wrapper {
+    max-width:500px;
+    align-self: center;
+}
+
+#search-bar {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height:35px;
+    width: 100%;
+    border-radius: 20px;
+    align-self: center;
+    padding-left: 20px;
+}
+
+.central-element .search-buttons {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-buttons .buttons {
+    padding: 5px 10px;
+    min-width: 140px;
+}
+
+.bottom {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*.bottom h5 {
+    display:flex;
+    background: aqua;
+    color: black;
+    padding: 5px;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+
+}
+*/
+
+@media screen and (max-width: 500px) {
+
+
+    .central-element {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-top: 20px;
+    min-height: 65vh;
+    flex-wrap: wrap;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+    #search-bar {
+            width: 300px;
+        }
+
+        
+    .central-element .search-buttons {
+            display: flex;
+            flex-direction: row;
+            gap: 5%;
+            align-self: center;
+            align-items: center;
+        }
+
+    .central-element .search-buttons .buttons{
+        display: flex;
+        padding: 2% 4%;
+    }
+
+    
+
+}
